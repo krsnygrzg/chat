@@ -115,3 +115,10 @@ func main() {
 		fmt.Println("Server error:", err)
 	}
 }
+
+// {
+//   "model":"qwen3:4b",
+//   "prompt":"Ответь одним абзацем. Без рассуждений. Только финальный ответ.\n\nРасскажи анекдот на тему Go.",
+//   "stream":false,
+//   "options":{"num_predict":200,"temperature":0.7}
+// }
